@@ -1,14 +1,23 @@
 [versions]
-agp = "8.6.1"
-kotlin = "2.0.20"
-coreKtx = "1.13.1"
-junit = "4.13.2"
-junitVersion = "1.2.1"
-espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.8.6"
 activityCompose = "1.9.2"
+agp = "8.6.1"
+androidDesugarJdkLibs = "2.1.2"
+androidTools = "31.7.0"
+androidxTracing = "1.3.0-alpha02"
 composeBom = "2024.09.02"
 composeCompiler = "1.5.15"
+coreKtx = "1.13.1"
+espressoCore = "3.6.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+kotlin = "2.0.20"
+ksp = "2.0.20-1.0.25"
+lifecycleRuntimeKtx = "2.8.6"
+navigationRuntimeKtx = "2.8.1"
+testng = "7.10.2"
+uiTestAndroid = "1.7.2"
+uiTestDesktop = "1.7.0"
+uiTestJunit4Android = "1.7.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -27,7 +36,31 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-compose-compiler = { group = "androidx.compose.compiler", name = "compiler", version.ref = "composeCompiler" }
 
+
+# Dependencies of the included build-logic
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+android-tools-common = { group = "com.android.tools", name = "common", version.ref = "androidTools" }
+compose-gradlePlugin = { module = "org.jetbrains.kotlin:compose-compiler-gradle-plugin", version.ref = "kotlin" }
+kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+android-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "androidDesugarJdkLibs" }
+androidx-tracing-ktx = { group = "androidx.tracing", name = "tracing-ktx", version.ref = "androidxTracing" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+androidx-ui-test-android = { group = "androidx.compose.ui", name = "ui-test-android", version.ref = "uiTestAndroid" }
+androidx-ui-test-junit4-android = { group = "androidx.compose.ui", name = "ui-test-junit4-android", version.ref = "uiTestJunit4Android" }
+androidx-ui-test-desktop = { group = "androidx.compose.ui", name = "ui-test-desktop", version.ref = "uiTestDesktop" }
+testng = { group = "org.testng", name = "testng", version.ref = "testng" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
+
+# Plugins defined by this project
+lwbdapp-android-application = { id = "lwbdapp.android.application", version = "unspecified" }
+lwbdapp-android-application-compose = { id = "lwbdapp.android.application.compose", version = "unspecified" }
+
+lwbdapp-android-application-flavors = { id = "lwbdapp.android.application.flavors", version = "unspecified" }
+
 
