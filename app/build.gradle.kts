@@ -1,3 +1,5 @@
+import com.lwbd.lwbdpoc.LwbdBuildType
+
 plugins {
     alias(libs.plugins.lwbdapp.android.application)
     alias(libs.plugins.lwbdapp.android.application.compose)
@@ -27,13 +29,20 @@ android {
     }
 
     buildTypes {
-        release {
-            isMinifyEnabled = false
+        getByName("debug") {
+            applicationIdSuffix = LwbdBuildType.DEBUG.applicationIdSuffix
+            isDebuggable = true
+        }
+        getByName("release") {
+            isMinifyEnabled = true
+            applicationIdSuffix = LwbdBuildType.RELEASE.applicationIdSuffix
+            signingConfig = signingConfigs.getByName("debug")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
+
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -44,6 +53,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -72,4 +82,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+}
+dependencyGuard {
+    configuration("freeReleaseRuntimeClasspath")
 }
