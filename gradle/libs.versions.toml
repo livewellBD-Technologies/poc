@@ -80,8 +80,13 @@ lwbdapp-android-application-flavors = { id = "lwbdapp.android.application.flavor
 lwbdapp-android-application-jacoco = { id = "lwbdapp.android.application.jacoco", version = "unspecified" }
 
 lwbdapp-android-feature = { id = "lwbdapp.android.feature", version = "unspecified" }
-lwbdapp-android-lint = { id = "lwbdapp.android.lint", version = "unspecified" }
 lwbdapp-android-library = { id = "lwbdapp.android.library", version = "unspecified" }
+lwbdapp-android-library-compose = { id = "lwbdapp.android.library.compose", version = "unspecified" }
+lwbdapp-android-library-jacoco = { id = "lwbdapp.android.library.jacoco", version = "unspecified" }
+lwbdapp-android-lint = { id = "lwbdapp.android.lint", version = "unspecified" }
+
+lwbdapp-hilt = { id = "lwbdapp.hilt", version = "unspecified" }
+lwbdapp-jvm-library = { id = "lwbdapp.jvm.library", version = "unspecified" }
 
 
 
