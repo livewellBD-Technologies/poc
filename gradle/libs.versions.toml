@@ -75,15 +75,14 @@ secrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugi
 # Plugins defined by this project
 lwbdapp-android-application = { id = "lwbdapp.android.application", version = "unspecified" }
 lwbdapp-android-application-compose = { id = "lwbdapp.android.application.compose", version = "unspecified" }
-
 lwbdapp-android-application-flavors = { id = "lwbdapp.android.application.flavors", version = "unspecified" }
 lwbdapp-android-application-jacoco = { id = "lwbdapp.android.application.jacoco", version = "unspecified" }
-
 lwbdapp-android-feature = { id = "lwbdapp.android.feature", version = "unspecified" }
 lwbdapp-android-library = { id = "lwbdapp.android.library", version = "unspecified" }
 lwbdapp-android-library-compose = { id = "lwbdapp.android.library.compose", version = "unspecified" }
 lwbdapp-android-library-jacoco = { id = "lwbdapp.android.library.jacoco", version = "unspecified" }
 lwbdapp-android-lint = { id = "lwbdapp.android.lint", version = "unspecified" }
+lwbdapp-android-test = { id = "lwbdapp.android.test", version = "unspecified" }
 
 lwbdapp-hilt = { id = "lwbdapp.hilt", version = "unspecified" }
 lwbdapp-jvm-library = { id = "lwbdapp.jvm.library", version = "unspecified" }
