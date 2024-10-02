@@ -78,6 +78,7 @@ lwbdapp-android-application-compose = { id = "lwbdapp.android.application.compos
 
 lwbdapp-android-application-flavors = { id = "lwbdapp.android.application.flavors", version = "unspecified" }
 lwbdapp-android-lint = { id = "lwbdapp.android.lint", version = "unspecified" }
+lwbdapp-android-library = { id = "lwbdapp.android.library", version = "unspecified" }
 
 
 
