@@ -1,8 +1,8 @@
 
 
 import com.android.build.gradle.TestExtension
-import com.lwbd.lwbdapp.configureGradleManagedDevices
-import com.lwbd.lwbdapp.configureKotlinAndroid
+import com.lwbd.lwbdpoc.configureGradleManagedDevices
+import com.lwbd.lwbdpoc.configureKotlinAndroid
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure

@@ -1,6 +1,12 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.lwbdapp.android.application)
+    alias(libs.plugins.lwbdapp.android.application.compose)
+    alias(libs.plugins.lwbdapp.android.application.flavors)
+    alias(libs.plugins.lwbdapp.android.application.jacoco)
+
+    alias(libs.plugins.lwbdapp.hilt)
+
+    alias(libs.plugins.roborazzi)
 }
 
 android {

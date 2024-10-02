@@ -1,10 +1,10 @@
 import com.android.build.api.dsl.ApplicationExtension
 import com.android.build.api.variant.ApplicationAndroidComponentsExtension
 import com.android.build.gradle.BaseExtension
-import com.lwbd.lwbdapp.configureBadgingTasks
-import com.lwbd.lwbdapp.configureGradleManagedDevices
-import com.lwbd.lwbdapp.configureKotlinAndroid
-import com.lwbd.lwbdapp.configurePrintApksTask
+import com.lwbd.lwbdpoc.configureBadgingTasks
+import com.lwbd.lwbdpoc.configureGradleManagedDevices
+import com.lwbd.lwbdpoc.configureKotlinAndroid
+import com.lwbd.lwbdpoc.configurePrintApksTask
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure

@@ -1,6 +1,6 @@
 
 
-import com.lwbd.lwbdapp.configureKotlinJvm
+import com.lwbd.lwbdpoc.configureKotlinJvm
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 

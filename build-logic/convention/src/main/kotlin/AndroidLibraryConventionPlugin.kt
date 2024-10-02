@@ -2,12 +2,12 @@
 
 import com.android.build.api.variant.LibraryAndroidComponentsExtension
 import com.android.build.gradle.LibraryExtension
-import com.lwbd.lwbdapp.configureFlavors
-import com.lwbd.lwbdapp.configureGradleManagedDevices
-import com.lwbd.lwbdapp.configureKotlinAndroid
-import com.lwbd.lwbdapp.configurePrintApksTask
-import com.lwbd.lwbdapp.disableUnnecessaryAndroidTests
-import com.lwbd.lwbdapp.libs
+import com.lwbd.lwbdpoc.configureFlavors
+import com.lwbd.lwbdpoc.configureGradleManagedDevices
+import com.lwbd.lwbdpoc.configureKotlinAndroid
+import com.lwbd.lwbdpoc.configurePrintApksTask
+import com.lwbd.lwbdpoc.disableUnnecessaryAndroidTests
+import com.lwbd.lwbdpoc.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure

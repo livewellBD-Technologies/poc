@@ -1,8 +1,8 @@
 
 
 import com.android.build.gradle.LibraryExtension
-import com.lwbd.lwbdapp.configureGradleManagedDevices
-import com.lwbd.lwbdapp.libs
+import com.lwbd.lwbdpoc.configureGradleManagedDevices
+import com.lwbd.lwbdpoc.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
