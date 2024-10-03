@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "LWBD POC"
 include(":app")
+include(":lint")
