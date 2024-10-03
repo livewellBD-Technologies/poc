@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.lwbd.lwbdapp.lint.designsystem
+package com.lwbd.lwbdpoc.lint.designsystem
 
 import com.android.tools.lint.checks.infrastructure.TestFile
 import com.android.tools.lint.checks.infrastructure.TestFiles.kotlin
 import com.android.tools.lint.checks.infrastructure.TestLintTask.lint
-import com.lwbd.lwbdapp.lint.designsystem.DesignSystemDetector.Companion.ISSUE
-import com.lwbd.lwbdapp.lint.designsystem.DesignSystemDetector.Companion.METHOD_NAMES
-import com.lwbd.lwbdapp.lint.designsystem.DesignSystemDetector.Companion.RECEIVER_NAMES
+import com.lwbd.lwbdpoc.lint.designsystem.DesignSystemDetector.Companion.ISSUE
+import com.lwbd.lwbdpoc.lint.designsystem.DesignSystemDetector.Companion.METHOD_NAMES
+import com.lwbd.lwbdpoc.lint.designsystem.DesignSystemDetector.Companion.RECEIVER_NAMES
 import org.jline.utils.Log
 import org.junit.Test
 

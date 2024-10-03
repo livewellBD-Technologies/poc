@@ -34,7 +34,7 @@ class LwbdIssueRegistry : IssueRegistry() {
     override val minApi: Int = 12
 
     override val vendor: Vendor = Vendor(
-        vendorName = "Livewell BD",
+        vendorName = "Live well BD",
         feedbackUrl = "https://github.com/lwbd/lwbdapp/issues",
         contact = "https://github.com/lwbd/lwbdapp",
     )

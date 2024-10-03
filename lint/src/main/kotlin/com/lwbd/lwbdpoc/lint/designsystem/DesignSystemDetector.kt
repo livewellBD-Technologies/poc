@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.lwbd.lwbdapp.lint.designsystem
+package com.lwbd.lwbdpoc.lint.designsystem
 
 import com.android.tools.lint.client.api.UElementHandler
 import com.android.tools.lint.detector.api.Category
