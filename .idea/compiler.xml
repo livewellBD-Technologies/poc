@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="11">
       <module name="LWBD_POC.app" target="17" />
+      <module name="LWBDPOC.feature.find-doctor" target="17" />
+      <module name="LWBDPOC.feature.home" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
