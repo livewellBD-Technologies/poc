@@ -38,3 +38,6 @@ include(":core:ui")
 
 include(":feature:home")
 include(":feature:find-doctor")
+include(":feature:prescriptions")
+include(":feature:menu")
+include(":feature:appointment-booking")

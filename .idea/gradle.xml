@@ -36,8 +36,11 @@
             <option value="$PROJECT_DIR$/core/testing" />
             <option value="$PROJECT_DIR$/core/ui" />
             <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/appointment-booking" />
             <option value="$PROJECT_DIR$/feature/find-doctor" />
             <option value="$PROJECT_DIR$/feature/home" />
+            <option value="$PROJECT_DIR$/feature/menu" />
+            <option value="$PROJECT_DIR$/feature/prescriptions" />
             <option value="$PROJECT_DIR$/lint" />
           </set>
         </option>
