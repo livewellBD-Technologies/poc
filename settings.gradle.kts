@@ -41,3 +41,5 @@ include(":feature:find-doctor")
 include(":feature:prescriptions")
 include(":feature:menu")
 include(":feature:appointment-booking")
+
+include(":ui-test-hilt-manifest")

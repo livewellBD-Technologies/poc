@@ -42,6 +42,7 @@
             <option value="$PROJECT_DIR$/feature/menu" />
             <option value="$PROJECT_DIR$/feature/prescriptions" />
             <option value="$PROJECT_DIR$/lint" />
+            <option value="$PROJECT_DIR$/ui-test-hilt-manifest" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
