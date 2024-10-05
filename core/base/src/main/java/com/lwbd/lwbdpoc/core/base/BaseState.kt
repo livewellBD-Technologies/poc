@@ -1,3 +1,3 @@
-package com.lwbd.lwbdapp.poc.base
+package com.lwbd.lwbdpoc.core.base
 
 interface BaseState
