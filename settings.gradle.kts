@@ -37,3 +37,4 @@ include(":core:testing")
 include(":core:ui")
 
 include(":feature:home")
+include(":feature:find-doctor")
