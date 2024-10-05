@@ -20,6 +20,17 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LWBD POC"
+rootProject.name = "LWBDPOC"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 include(":app")
 include(":lint")
+
+include(":core:base")
+include(":core:common")
+include(":core:data")
+include(":core:data-test")
+include(":core:designsystem")
+include(":core:model")
+include(":core:network")
+include(":core:testing")

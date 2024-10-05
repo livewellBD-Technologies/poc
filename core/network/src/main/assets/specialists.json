@@ -1,0 +1,115 @@
+[
+  {
+    "id": "64245104dc683ab14b98de81",
+    "specializations": {
+      "id": "63009a304cfa23ff4a63f30f",
+      "name": "Gynecology",
+      "imageUrl": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/specialties/Gynecology.png",
+      "bannerUrlRect": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578974283-669978439.png",
+      "bannerUrlSqr": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578974258-229825068.png",
+      "createdAt": "2022-08-20T08:24:16.736Z",
+      "updatedAt": "2023-10-01T13:12:46.934Z",
+      "trainings": [
+        "PGT",
+        "FCPS Part-1",
+        "FCPS Part-2"
+      ],
+      "services": [
+        "Sexual and reproductive health counseling",
+        "Cesarean delivery",
+        "Hysterectomy",
+        "Oophorectomy",
+        "Myomectomy",
+        "Tubal ligation",
+        "Hysteroscopy",
+        "Colposcopy",
+        "Pelvic organ prolapse repair",
+        "Pelvic reconstructive surgery",
+        "Endometrial ablation",
+        "Pelvic laparotomy",
+        "Gynecologic oncology surgeries",
+        "Urinary incontinence surgery"
+      ],
+      "isActive": true
+    },
+    "fee": "200",
+    "nextAvailableSlot": "AVAILABLE NOW"
+  },
+  {
+    "id": "6424513cdc683ab14b98de82",
+    "specializations": {
+      "id": "63009a304cfa23ff4a63f30e",
+      "name": "General Physician",
+      "imageUrl": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/specialties/General+Physician.png",
+      "bannerUrlRect": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688579077777-10848301.png",
+      "bannerUrlSqr": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688579077772-547352447.png",
+      "createdAt": "2022-08-20T08:24:16.665Z",
+      "updatedAt": "2023-05-24T15:46:11.970Z",
+      "trainings": [
+        "FCGP"
+      ],
+      "isActive": true
+    },
+    "fee": "75",
+    "nextAvailableSlot": "AVAILABLE NOW"
+  },
+  {
+    "id": "6424531cdc683ab14b98de83",
+    "specializations": {
+      "id": "63009a314cfa23ff4a63f320",
+      "name": "Skin & VD",
+      "imageUrl": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/specialties/Skin+and+VD.png",
+      "bannerUrlRect": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578631551-16610788.png",
+      "bannerUrlSqr": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578631536-694901218.png",
+      "createdAt": "2022-08-20T08:24:17.992Z",
+      "updatedAt": "2024-08-15T02:47:34.351Z",
+      "trainings": [
+        "DOC"
+      ],
+      "services": [],
+      "isActive": true
+    },
+    "fee": "200",
+    "nextAvailableSlot": "AVAILABLE NOW"
+  },
+  {
+    "id": "64a5ad2d22de0e5039a9636a",
+    "specializations": {
+      "id": "63009a314cfa23ff4a63f31a",
+      "name": "Pediatrics",
+      "imageUrl": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/specialties/Pediatrics.png",
+      "bannerUrlRect": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578514330-547067671.png",
+      "bannerUrlSqr": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578514358-839627625.png",
+      "createdAt": "2022-08-20T08:24:17.553Z",
+      "updatedAt": "2023-05-24T15:32:04.965Z",
+      "trainings": [
+        "PGT",
+        "FCPS Part-1",
+        "FCPS Part-2"
+      ],
+      "isActive": true
+    },
+    "fee": "250",
+    "nextAvailableSlot": "AVAILABLE NOW"
+  },
+  {
+    "id": "64a5ad5922de0e5039a9636b",
+    "specializations": {
+      "id": "63009a304cfa23ff4a63f312",
+      "name": "Medicine",
+      "imageUrl": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/specialties/Medicine.png",
+      "bannerUrlRect": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578723385-925725143.png",
+      "bannerUrlSqr": "https://livewell-bd-dev.s3.ap-south-1.amazonaws.com/1688578723377-743660694.png",
+      "createdAt": "2022-08-20T08:24:16.952Z",
+      "updatedAt": "2023-05-24T15:40:45.325Z",
+      "trainings": [
+        "PGT",
+        "FCPS Part-1",
+        "FCPS Part-2"
+      ],
+      "isActive": true
+    },
+    "fee": "200",
+    "nextAvailableSlot": "AVAILABLE NOW"
+  }
+]
