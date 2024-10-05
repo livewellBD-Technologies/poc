@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">LWBD POC</string>
+    <string name="app_name">Live Well BD</string>
+    <string name="empty">""</string>
+    <string name="not_connected">⚠️ You aren’t connected to the internet</string>
 </resources>
