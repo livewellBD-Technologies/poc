@@ -13,3 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
+/core/designsystem/src/test/screenshots/
