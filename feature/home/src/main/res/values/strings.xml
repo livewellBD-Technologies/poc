@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="feature_home_title">Home</string>
+    <string name="feature_home_empty">""</string>
+    <string name="feature_home_done">Done</string>
+    <string name="feature_home_loading">Loading home…</string>
+    <string name="feature_home_navigate_up">Navigate up</string>
+    <string name="feature_home_onboarding_guidance_title">What are you interested in?</string>
+    <string name="feature_home_onboarding_guidance_subtitle">Updates from topics you follow will appear here. Follow some things to get started.</string>
+
+</resources>
