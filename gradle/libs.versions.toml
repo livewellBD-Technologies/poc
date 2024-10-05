@@ -1,6 +1,7 @@
 [versions]
 accompanist = "0.36.0"
 activityCompose = "1.9.2"
+adaptiveAndroid = "1.0.0"
 agp = "8.6.1"
 androidDesugarJdkLibs = "2.1.2"
 androidTools = "31.7.0"
@@ -63,7 +64,7 @@ androidx-compose-ui-test = ["androidx-compose-ui-test-junit4", "androidx-compose
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
 
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat" }
-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
 
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -95,6 +96,7 @@ androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-te
 androidx-compose-ui-util = { group = "androidx.compose.ui", name = "ui-util" }
 androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-compose-material3-adaptive = { group = "androidx.compose.material3.adaptive", name = "adaptive", version.ref = "androidxComposeMaterial3Adaptive" }
+androidx-compose-material3-adaptive-android = { group = "androidx.compose.material3.adaptive", name = "adaptive-android", version.ref = "adaptiveAndroid" }
 androidx-compose-material3-adaptive-layout = { group = "androidx.compose.material3.adaptive", name = "adaptive-layout", version.ref = "androidxComposeMaterial3Adaptive" }
 androidx-compose-material3-adaptive-navigation = { group = "androidx.compose.material3.adaptive", name = "adaptive-navigation", version.ref = "androidxComposeMaterial3Adaptive" }
 androidx-compose-material-iconsExtended = { group = "androidx.compose.material", name = "material-icons-extended" }
