@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="feature_menu_title">Menu</string>
+    <string name="feature_menu_loading">Loading data</string>
+    <string name="feature_menu_empty_header">"No available data"</string>
+</resources>

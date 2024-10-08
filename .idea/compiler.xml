@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="build-logic.convention" target="17" />
+      <module name="build-logic.convention.main" target="17" />
+      <module name="build-logic.convention.test" target="17" />
+      <module name="LWBD_POC.app" target="17" />
+      <module name="LWBDPOC.app" target="17" />
+      <module name="LWBDPOC.core.base" target="17" />
+      <module name="LWBDPOC.core.data" target="17" />
+      <module name="LWBDPOC.core.data-test" target="17" />
+      <module name="LWBDPOC.core.designsystem" target="17" />
+      <module name="LWBDPOC.core.network" target="17" />
+      <module name="LWBDPOC.core.testing" target="17" />
+      <module name="LWBDPOC.core.ui" target="17" />
+      <module name="LWBDPOC.feature.appointment-booking" target="17" />
+      <module name="LWBDPOC.feature.find-doctor" target="17" />
+      <module name="LWBDPOC.feature.home" target="17" />
+      <module name="LWBDPOC.feature.menu" target="17" />
+      <module name="LWBDPOC.feature.prescriptions" target="17" />
+      <module name="LWBDPOC.ui-test-hilt-manifest" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
